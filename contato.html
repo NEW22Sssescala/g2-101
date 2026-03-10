@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Entre em contato com a NETZ CORRETORA">
+    <title>Contato - NETZ CORRETORA</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        'brand-primary': '#0C4A6E',
+                        'brand-secondary': '#0284C7',
+                        'brand-accent': '#F97316',
+                    }
+                }
+            }
+        }
+    </script>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Tajawal:wght@300;400;500;700&display=swap');
+
+        body {
+            font-family: 'Tajawal', sans-serif;
+        }
+    </style>
+</head>
+
+<body class="bg-white text-gray-800">
+
+    <!-- Header/Navigation -->
+    <header class="bg-brand-primary text-white shadow-lg fixed w-full top-0 z-50">
+        <nav class="container mx-auto px-6 py-4">
+            <div class="flex items-center justify-between">
+                <div class="text-2xl font-bold text-brand-accent">
+                    NETZ CORRETORA
+                </div>
+                <div class="hidden md:flex space-x-6">
+                    <a href="index.html" class="hover:text-brand-accent transition">Home</a>
+                    <a href="sobre.html" class="hover:text-brand-accent transition">Sobre</a>
+                    <a href="servicos.html" class="hover:text-brand-accent transition">Serviços</a>
+                    <a href="regulacao.html" class="hover:text-brand-accent transition">Regulação</a>
+                    <a href="contato.html" class="text-brand-accent">Contato</a>
+                </div>
+                <button id="mobile-menu-btn" class="md:hidden">
+                    <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                            d="M4 6h16M4 12h16M4 18h16"></path>
+                    </svg>
+                </button>
+            </div>
+            <div id="mobile-menu" class="hidden md:hidden mt-4 space-y-2">
+                <a href="index.html" class="block hover:text-brand-accent transition">Home</a>
+                <a href="sobre.html" class="block hover:text-brand-accent transition">Sobre</a>
+                <a href="servicos.html" class="block hover:text-brand-accent transition">Serviços</a>
+                <a href="regulacao.html" class="block hover:text-brand-accent transition">Regulação</a>
+                <a href="contato.html" class="block text-brand-accent">Contato</a>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Page Header -->
+    <section class="pt-32 pb-12 bg-gradient-to-br from-brand-primary to-sky-900 text-white">
+        <div class="container mx-auto px-6">
+            <h1 class="text-4xl md:text-5xl font-bold text-center">Entre em Contato</h1>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="py-16 bg-white">
+        <div class="container mx-auto px-6">
+            <div class="max-w-5xl mx-auto">
+                <div class="grid md:grid-cols-2 gap-12">
+
+                    <!-- Contact Form -->
+                    <div>
+                        <h2 class="text-3xl font-bold text-brand-primary mb-6">Envie sua Mensagem</h2>
+                        <form id="contact-form" class="space-y-4">
+                            <div>
+                                <label for="name" class="block text-gray-700 font-semibold mb-2">Nome Completo *</label>
+                                <input type="text" id="name" name="name" required
+                                    class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:border-brand-secondary">
+                            </div>
+                            <div>
+                                <label for="email" class="block text-gray-700 font-semibold mb-2">E-mail *</label>
+                                <input type="email" id="email" name="email" required
+                                    class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:border-brand-secondary">
+                            </div>
+                            <div>
+                                <label for="phone" class="block text-gray-700 font-semibold mb-2">Telefone *</label>
+                                <input type="tel" id="phone" name="phone" required
+                                    class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:border-brand-secondary">
+                            </div>
+                            <div>
+                                <label for="subject" class="block text-gray-700 font-semibold mb-2">Assunto *</label>
+                                <input type="text" id="subject" name="subject" required
+                                    class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:border-brand-secondary">
+                            </div>
+                            <div>
+                                <label for="message" class="block text-gray-700 font-semibold mb-2">Mensagem *</label>
+                                <textarea id="message" name="message" rows="5" required
+                                    class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:border-brand-secondary"></textarea>
+                            </div>
+                            <button type="submit"
+                                class="w-full bg-brand-primary text-white font-bold py-3 px-6 rounded-lg hover:bg-opacity-90 transition">
+                                Enviar Mensagem
+                            </button>
+                        </form>
+                    </div>
+
+                    <!-- Contact Info -->
+                    <div>
+                        <h2 class="text-3xl font-bold text-brand-primary mb-6">Informações de Contato</h2>
+
+                        <div class="space-y-6 mb-8">
+                            <div class="flex items-start">
+                                <div class="text-brand-secondary text-3xl mr-4">📧</div>
+                                <div>
+                                    <h3 class="font-bold text-brand-primary mb-1">E-mail</h3>
+                                    <a href="mailto:adm@netzasset.com.br"
+                                        class="text-gray-700 hover:text-brand-secondary">
+                                        adm@netzasset.com.br
+                                    </a>
+                                </div>
+                            </div>
+
+                            <div class="flex items-start">
+                                <div class="text-brand-secondary text-3xl mr-4">📞</div>
+                                <div>
+                                    <h3 class="font-bold text-brand-primary mb-1">Telefone</h3>
+                                    <a href="tel:(11) 5851-5788" class="text-gray-700 hover:text-brand-secondary">
+                                        (11) 5851-5788
+                                    </a>
+                                </div>
+                            </div>
+
+                            <div class="flex items-start">
+                                <div class="text-brand-secondary text-3xl mr-4">📍</div>
+                                <div>
+                                    <h3 class="font-bold text-brand-primary mb-1">Endereço</h3>
+                                    <p class="text-gray-700">
+                                        Avenida Eng Luiz Carlos Berrini, 1376<br>
+                                        Cidade Monções, São Paulo - SP
+                                    </p>
+                                </div>
+                            </div>
+
+                            <div class="flex items-start">
+                                <div class="text-brand-secondary text-3xl mr-4">🏢</div>
+                                <div>
+                                    <h3 class="font-bold text-brand-primary mb-1">CNPJ</h3>
+                                    <p class="text-gray-700">61.734.108/0001-00</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Company Data Box -->
+                        <div class="bg-brand-primary text-white rounded-lg p-6">
+                            <h3 class="text-xl font-bold mb-4">Netz Corretora de Seguros LTDA</h3>
+                            <p class="text-sm opacity-90 mb-4">
+                                Instituição financeira autorizada pelo Banco Central do Brasil
+                            </p>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-gray-900 text-white py-12">
+        <div class="container mx-auto px-6">
+            <div class="grid md:grid-cols-3 gap-8 mb-8">
+                <div>
+                    <h3 class="text-xl font-bold text-brand-accent mb-4">NETZ CORRETORA</h3>
+                    <p class="text-gray-400 text-sm">
+                        Instituição financeira autorizada pelo Banco Central do Brasil
+                    </p>
+                </div>
+                <div>
+                    <h3 class="text-xl font-bold text-brand-accent mb-4">Links Úteis</h3>
+                    <ul class="space-y-2 text-sm">
+                        <li><a href="sobre.html" class="text-gray-400 hover:text-white transition">Sobre</a></li>
+                        <li><a href="servicos.html" class="text-gray-400 hover:text-white transition">Serviços</a></li>
+                        <li><a href="regulacao.html" class="text-gray-400 hover:text-white transition">Regulação</a>
+                        </li>
+                        <li><a href="contato.html" class="text-gray-400 hover:text-white transition">Contato</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h3 class="text-xl font-bold text-brand-accent mb-4">Contato</h3>
+                    <ul class="space-y-2 text-sm text-gray-400">
+                        <li>📧 adm@netzasset.com.br</li>
+                        <li>📞 (11) 5851-5788</li>
+                        <li>📍 Cidade Monções, São Paulo - SP</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="border-t border-gray-800 pt-8">
+                <div class="text-center text-sm text-gray-400 mb-4">
+                    <p class="mb-2">
+                        <strong>Netz Corretora de Seguros LTDA</strong> – CNPJ 61.734.108/0001-00
+                    </p>
+                    <p>
+                        Instituição financeira autorizada pelo Banco Central do Brasil
+                    </p>
+                </div>
+                <div class="text-center text-sm text-gray-500">
+                    <a href="privacidade.html" class="hover:text-white transition">Política de Privacidade</a>
+                    <span class="mx-2">|</span>
+                    <a href="termos.html" class="hover:text-white transition">Termos de Uso</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        document.getElementById('mobile-menu-btn').addEventListener('click', function () {
+            document.getElementById('mobile-menu').classList.toggle('hidden');
+        });
+
+        document.getElementById('contact-form').addEventListener('submit', function (e) {
+            e.preventDefault();
+            alert('Obrigado pelo contato! Em breve retornaremos sua mensagem.');
+            this.reset();
+        });
+    </script>
+</body>
+
+</html>

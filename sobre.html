@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="Sobre a NETZ CORRETORA - Instituição Financeira autorizada pelo Banco Central">
+    <title>Sobre - NETZ CORRETORA</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        'brand-primary': '#0C4A6E',
+                        'brand-secondary': '#0284C7',
+                        'brand-accent': '#F97316',
+                    }
+                }
+            }
+        }
+    </script>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Tajawal:wght@300;400;500;700&display=swap');
+
+        body {
+            font-family: 'Tajawal', sans-serif;
+        }
+    </style>
+</head>
+
+<body class="bg-white text-gray-800">
+
+    <!-- Header/Navigation -->
+    <header class="bg-brand-primary text-white shadow-lg fixed w-full top-0 z-50">
+        <nav class="container mx-auto px-6 py-4">
+            <div class="flex items-center justify-between">
+                <div class="text-2xl font-bold text-brand-accent">
+                    NETZ CORRETORA
+                </div>
+                <div class="hidden md:flex space-x-6">
+                    <a href="index.html" class="hover:text-brand-accent transition">Home</a>
+                    <a href="sobre.html" class="text-brand-accent">Sobre</a>
+                    <a href="servicos.html" class="hover:text-brand-accent transition">Serviços</a>
+                    <a href="regulacao.html" class="hover:text-brand-accent transition">Regulação</a>
+                    <a href="contato.html" class="hover:text-brand-accent transition">Contato</a>
+                </div>
+                <button id="mobile-menu-btn" class="md:hidden">
+                    <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                            d="M4 6h16M4 12h16M4 18h16"></path>
+                    </svg>
+                </button>
+            </div>
+            <div id="mobile-menu" class="hidden md:hidden mt-4 space-y-2">
+                <a href="index.html" class="block hover:text-brand-accent transition">Home</a>
+                <a href="sobre.html" class="block text-brand-accent">Sobre</a>
+                <a href="servicos.html" class="block hover:text-brand-accent transition">Serviços</a>
+                <a href="regulacao.html" class="block hover:text-brand-accent transition">Regulação</a>
+                <a href="contato.html" class="block hover:text-brand-accent transition">Contato</a>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Page Header -->
+    <section class="pt-32 pb-12 bg-gradient-to-br from-brand-primary to-sky-900 text-white">
+        <div class="container mx-auto px-6">
+            <h1 class="text-4xl md:text-5xl font-bold text-center">Sobre a Empresa</h1>
+        </div>
+    </section>
+
+    <!-- Company Info -->
+    <section class="py-16 bg-white">
+        <div class="container mx-auto px-6">
+            <div class="max-w-4xl mx-auto">
+                <h2 class="text-3xl font-bold text-brand-primary mb-8">Netz Corretora de Seguros LTDA</h2>
+
+                <div class="prose prose-lg max-w-none">
+                    <p class="text-lg text-gray-700 mb-6 leading-relaxed">
+                        A <strong>Netz Corretora de Seguros LTDA</strong> é uma instituição financeira autorizada a
+                        funcionar pelo
+                        <strong>Banco Central do Brasil</strong>. Atuamos como corretora de seguros, realizando operações
+                        de
+                        compra e venda de moeda estrangeira, pagamentos e recebimentos internacionais,
+                        entre outros serviços relacionados.
+                    </p>
+
+                    <p class="text-lg text-gray-700 mb-8 leading-relaxed">
+                        Comprometidos com a transparência e a conformidade regulatória, oferecemos soluções financeiras
+                        seguras e eficientes para nossos clientes.
+                    </p>
+                </div>
+
+                <!-- Company Data -->
+                <div class="bg-gray-50 rounded-lg p-8 mb-12">
+                    <h3 class="text-2xl font-bold text-brand-primary mb-6">Dados da Empresa</h3>
+                    <div class="grid md:grid-cols-2 gap-6">
+                        <div>
+                            <p class="text-sm text-gray-600 mb-1">Razão Social</p>
+                            <p class="font-semibold text-brand-primary">Netz Corretora de Seguros LTDA</p>
+                        </div>
+                        <div>
+                            <p class="text-sm text-gray-600 mb-1">Nome Fantasia</p>
+                            <p class="font-semibold text-brand-primary">Netz Corretora de Seguros LTDA</p>
+                        </div>
+                        <div>
+                            <p class="text-sm text-gray-600 mb-1">CNPJ</p>
+                            <p class="font-semibold text-brand-primary">61.734.108/0001-00</p>
+                        </div>
+                        <div>
+                            <p class="text-sm text-gray-600 mb-1">Data de Abertura</p>
+                            <p class="font-semibold text-brand-primary">09/10/2025</p>
+                        </div>
+                        <div>
+                            <p class="text-sm text-gray-600 mb-1">Natureza Jurídica</p>
+                            <p class="font-semibold text-brand-primary">Sociedade Empresária Limitada</p>
+                        </div>
+                        <div>
+                            <p class="text-sm text-gray-600 mb-1">Porte</p>
+                            <p class="font-semibold text-brand-primary">MICRO EMPRESA</p>
+                        </div>
+                        <div>
+                            <p class="text-sm text-gray-600 mb-1">Capital Social</p>
+                            <p class="font-semibold text-brand-primary">R$ 10.000,00</p>
+                        </div>
+                        <div>
+                            <p class="text-sm text-gray-600 mb-1">Situação Cadastral</p>
+                            <p class="font-semibold text-green-600">ATIVA</p>
+                        </div>
+                        <div class="md:col-span-2">
+                            <p class="text-sm text-gray-600 mb-1">Endereço</p>
+                            <p class="font-semibold text-brand-primary">Avenida Eng Luiz Carlos Berrini, 1376, Bloco A Sala 141, Cidade Monções, São Paulo - SP, CEP 04571-936
+                                Tijuca, Rio de
+                                Janeiro - RJ</p>
+                        </div>
+                        <div>
+                            <p class="text-sm text-gray-600 mb-1">Atividade Econômica Principal (CNAE)</p>
+                            <p class="font-semibold text-brand-primary">6619302 - Correspondentes de instituições
+                                financeiras</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Partners -->
+                <div class="mb-12">
+                    <h3 class="text-2xl font-bold text-brand-primary mb-6">Quadro de Sócios e Administradores</h3>
+                    <div class="grid md:grid-cols-2 gap-6">
+                        <div class="bg-white border-2 border-brand-accent rounded-lg p-6 text-center">
+                            <div
+                                class="w-20 h-20 bg-brand-primary rounded-full mx-auto mb-4 flex items-center justify-center text-white text-2xl font-bold">
+                                AS
+                            </div>
+                            <h4 class="font-bold text-brand-primary mb-2">ANNIBAL STANECK RODRIGUES COELHO</h4>
+                            <p class="text-sm text-gray-600">Sócio Administrador</p>
+                        </div>
+                        <div class="bg-white border-2 border-brand-accent rounded-lg p-6 text-center">
+                            <div
+                                class="w-20 h-20 bg-brand-primary rounded-full mx-auto mb-4 flex items-center justify-center text-white text-2xl font-bold">
+                                RB
+                            </div>
+                            <h4 class="font-bold text-brand-primary mb-2">RODRIGO BARCELOS DE MOURA CRUZ</h4>
+                            <p class="text-sm text-gray-600">Sócio Administrador</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Mission -->
+                <div class="bg-brand-primary text-white rounded-lg p-8">
+                    <h3 class="text-2xl font-bold mb-4">Nossa Missão</h3>
+                    <p class="text-lg leading-relaxed opacity-90">
+                        Oferecer serviços de câmbio com excelência, transparência e
+                        conformidade regulatória, sempre priorizando o atendimento personalizado e a satisfação dos
+                        nossos clientes, como instituição autorizada pelo Banco Central do Brasil.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-gray-900 text-white py-12">
+        <div class="container mx-auto px-6">
+            <div class="grid md:grid-cols-3 gap-8 mb-8">
+                <div>
+                    <h3 class="text-xl font-bold text-brand-accent mb-4">NETZ CORRETORA</h3>
+                    <p class="text-gray-400 text-sm">
+                        Instituição financeira autorizada pelo Banco Central do Brasil
+                    </p>
+                </div>
+                <div>
+                    <h3 class="text-xl font-bold text-brand-accent mb-4">Links Úteis</h3>
+                    <ul class="space-y-2 text-sm">
+                        <li><a href="sobre.html" class="text-gray-400 hover:text-white transition">Sobre</a></li>
+                        <li><a href="servicos.html" class="text-gray-400 hover:text-white transition">Serviços</a></li>
+                        <li><a href="regulacao.html" class="text-gray-400 hover:text-white transition">Regulação</a>
+                        </li>
+                        <li><a href="contato.html" class="text-gray-400 hover:text-white transition">Contato</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h3 class="text-xl font-bold text-brand-accent mb-4">Contato</h3>
+                    <ul class="space-y-2 text-sm text-gray-400">
+                        <li>📧 adm@netzasset.com.br</li>
+                        <li>📞 (11) 5851-5788</li>
+                        <li>📍 Cidade Monções, São Paulo - SP</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="border-t border-gray-800 pt-8">
+                <div class="text-center text-sm text-gray-400 mb-4">
+                    <p class="mb-2">
+                        <strong>Netz Corretora de Seguros LTDA</strong> – CNPJ 61.734.108/0001-00
+                    </p>
+                    <p>
+                        Instituição financeira autorizada pelo Banco Central do Brasil
+                    </p>
+                </div>
+                <div class="text-center text-sm text-gray-500">
+                    <a href="privacidade.html" class="hover:text-white transition">Política de Privacidade</a>
+                    <span class="mx-2">|</span>
+                    <a href="termos.html" class="hover:text-white transition">Termos de Uso</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        document.getElementById('mobile-menu-btn').addEventListener('click', function () {
+            document.getElementById('mobile-menu').classList.toggle('hidden');
+        });
+    </script>
+</body>
+
+</html>

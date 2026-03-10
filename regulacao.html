@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="Regulação e Conformidade - NETZ CORRETORA autorizada pelo Banco Central do Brasil">
+    <title>Regulação e Conformidade - NETZ CORRETORA</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        'brand-primary': '#0C4A6E',
+                        'brand-secondary': '#0284C7',
+                        'brand-accent': '#F97316',
+                    }
+                }
+            }
+        }
+    </script>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Tajawal:wght@300;400;500;700&display=swap');
+
+        body {
+            font-family: 'Tajawal', sans-serif;
+        }
+    </style>
+</head>
+
+<body class="bg-white text-gray-800">
+
+    <!-- Header/Navigation -->
+    <header class="bg-brand-primary text-white shadow-lg fixed w-full top-0 z-50">
+        <nav class="container mx-auto px-6 py-4">
+            <div class="flex items-center justify-between">
+                <div class="text-2xl font-bold text-brand-accent">
+                    NETZ CORRETORA
+                </div>
+                <div class="hidden md:flex space-x-6">
+                    <a href="index.html" class="hover:text-brand-accent transition">Home</a>
+                    <a href="sobre.html" class="hover:text-brand-accent transition">Sobre</a>
+                    <a href="servicos.html" class="hover:text-brand-accent transition">Serviços</a>
+                    <a href="regulacao.html" class="text-brand-accent">Regulação</a>
+                    <a href="contato.html" class="hover:text-brand-accent transition">Contato</a>
+                </div>
+                <button id="mobile-menu-btn" class="md:hidden">
+                    <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                            d="M4 6h16M4 12h16M4 18h16"></path>
+                    </svg>
+                </button>
+            </div>
+            <div id="mobile-menu" class="hidden md:hidden mt-4 space-y-2">
+                <a href="index.html" class="block hover:text-brand-accent transition">Home</a>
+                <a href="sobre.html" class="block hover:text-brand-accent transition">Sobre</a>
+                <a href="servicos.html" class="block hover:text-brand-accent transition">Serviços</a>
+                <a href="regulacao.html" class="block text-brand-accent">Regulação</a>
+                <a href="contato.html" class="block hover:text-brand-accent transition">Contato</a>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Page Header -->
+    <section class="pt-32 pb-12 bg-gradient-to-br from-brand-primary to-sky-900 text-white">
+        <div class="container mx-auto px-6">
+            <h1 class="text-4xl md:text-5xl font-bold text-center mb-4">Regulação e Conformidade</h1>
+            <p class="text-center text-xl text-brand-accent">Autorização e Cadastro no Banco Central do Brasil</p>
+        </div>
+    </section>
+
+    <!-- Main Content -->
+    <section class="py-16 bg-white">
+        <div class="container mx-auto px-6">
+            <div class="max-w-4xl mx-auto">
+
+                <!-- Main Regulatory Text -->
+                <div class="bg-brand-accent bg-opacity-10 border-2 border-brand-secondary rounded-lg p-8 mb-12">
+                    <h2 class="text-2xl font-bold text-brand-primary mb-6">Informações Regulatórias</h2>
+
+                    <div class="space-y-4 text-lg text-gray-800 leading-relaxed">
+                        <p>
+                            A <strong>Netz Corretora de Seguros LTDA</strong> é uma instituição financeira
+                            autorizada a funcionar pelo
+                            <strong>Banco Central do Brasil</strong>, conforme regulamentação vigente.
+                        </p>
+
+                        <p>
+                            Essa autorização permite que a empresa atue como <strong>corretora de seguros</strong>,
+                            realizando operações de
+                            compra e venda de moeda estrangeira, pagamentos e recebimentos internacionais,
+                            entre outros serviços relacionados.
+                        </p>
+                    </div>
+                </div>
+
+                <!-- Public Verification -->
+                <div class="bg-brand-primary text-white rounded-lg p-8 mb-12">
+                    <h2 class="text-2xl font-bold mb-6 text-center">Consulta Pública</h2>
+                    <p class="text-lg mb-6 text-center opacity-90">
+                        Essas informações podem ser confirmadas por meio de registros públicos e
+                        documentos oficiais disponíveis nos sites da Receita Federal e do Banco Central do
+                        Brasil.
+                    </p>
+                    <div class="text-center">
+                        <a href="https://www.bcb.gov.br/" target="_blank" rel="noopener noreferrer"
+                            class="inline-block bg-brand-secondary hover:bg-brand-accent text-brand-primary font-bold py-4 px-8 rounded-lg transition transform hover:scale-105">
+                            🔗 Acessar Site do BACEN
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Regulatory Details -->
+                <div class="grid md:grid-cols-2 gap-6 mb-12">
+                    <div class="bg-gray-50 rounded-lg p-6">
+                        <h3 class="text-xl font-bold text-brand-primary mb-4">Dados da Empresa</h3>
+                        <ul class="space-y-3 text-gray-700">
+                            <li><strong>Razão Social:</strong> Netz Corretora de Seguros LTDA</li>
+                            <li><strong>CNPJ:</strong> 61.734.108/0001-00</li>
+                            <li><strong>Tipo de Atuação:</strong> Correspondente Bancário</li>
+                            <li><strong>Data de Abertura:</strong> 09/10/2025</li>
+                        </ul>
+                    </div>
+
+                    <div class="bg-gray-50 rounded-lg p-6">
+                        <h3 class="text-xl font-bold text-brand-primary mb-4">Verificação de Relacionamento com a G2
+                        </h3>
+                        <p class="text-sm text-gray-700 mb-2">Para verificar a conexão, considere:</p>
+                        <ul class="space-y-3 text-gray-700 text-sm">
+                            <li><strong>Website:</strong> netzasset.com.br</li>
+                            <li><strong>Endereço:</strong> Avenida Eng Luiz Carlos Berrini, 1376, Bloco A Sala 141, Cidade Monções, São Paulo - SP
+                                de
+                                Janeiro - RJ</li>
+                            <li><strong>CNPJ:</strong> 61734108000100</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Scope of Activities -->
+                <div class="bg-white border-2 border-gray-200 rounded-lg p-8 mb-12">
+                    <h2 class="text-2xl font-bold text-brand-primary mb-6">Escopo de Atuação</h2>
+                    <p class="text-lg text-gray-700 mb-4">
+                        Como instituição financeira autorizada, a Netz Corretora de Seguros LTDA está apta a
+                        realizar as
+                        seguintes atividades:
+                    </p>
+                    <ul class="space-y-3 text-gray-700">
+                        <li class="flex items-start">
+                            <span class="text-brand-secondary mr-3 text-xl">✓</span>
+                            <span><strong>Câmbio:</strong> Compra e venda de moeda estrangeira</span>
+                        </li>
+                        <li class="flex items-start">
+                            <span class="text-brand-secondary mr-3 text-xl">✓</span>
+                            <span><strong>Pagamentos:</strong> Pagamentos e recebimentos internacionais</span>
+                        </li>
+                        <li class="flex items-start">
+                            <span class="text-brand-secondary mr-3 text-xl">✓</span>
+                            <span><strong>Serviços Relacionados:</strong> Outros serviços financeiros autorizados</span>
+                        </li>
+                    </ul>
+                </div>
+
+                <!-- Applicable Legislation -->
+                <div class="bg-gray-50 rounded-lg p-8">
+                    <h2 class="text-2xl font-bold text-brand-primary mb-6">Legislação Aplicável</h2>
+                    <p class="text-gray-700 mb-4">
+                        A atuação da Netz Corretora de Seguros LTDA está em conformidade com as normas e
+                        regulamentações do Banco
+                        Central do Brasil.
+                    </p>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact CTA -->
+    <section class="py-16 bg-brand-secondary">
+        <div class="container mx-auto px-6 text-center">
+            <h2 class="text-3xl font-bold text-white mb-4">Dúvidas sobre Regulação?</h2>
+            <p class="text-xl text-white opacity-90 mb-8">Entre em contato para esclarecimentos</p>
+            <a href="contato.html"
+                class="inline-block bg-white text-brand-primary font-bold py-3 px-8 rounded-lg hover:bg-gray-100 transition">
+                Fale Conosco
+            </a>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-gray-900 text-white py-12">
+        <div class="container mx-auto px-6">
+            <div class="grid md:grid-cols-3 gap-8 mb-8">
+                <div>
+                    <h3 class="text-xl font-bold text-brand-accent mb-4">NETZ CORRETORA</h3>
+                    <p class="text-gray-400 text-sm">
+                        Instituição financeira autorizada pelo Banco Central do Brasil
+                    </p>
+                </div>
+                <div>
+                    <h3 class="text-xl font-bold text-brand-accent mb-4">Links Úteis</h3>
+                    <ul class="space-y-2 text-sm">
+                        <li><a href="sobre.html" class="text-gray-400 hover:text-white transition">Sobre</a></li>
+                        <li><a href="servicos.html" class="text-gray-400 hover:text-white transition">Serviços</a></li>
+                        <li><a href="regulacao.html" class="text-gray-400 hover:text-white transition">Regulação</a>
+                        </li>
+                        <li><a href="contato.html" class="text-gray-400 hover:text-white transition">Contato</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h3 class="text-xl font-bold text-brand-accent mb-4">Contato</h3>
+                    <ul class="space-y-2 text-sm text-gray-400">
+                        <li>📧 adm@netzasset.com.br</li>
+                        <li>📞 (11) 5851-5788</li>
+                        <li>📍 Cidade Monções, São Paulo - SP</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="border-t border-gray-800 pt-8">
+                <div class="text-center text-sm text-gray-400 mb-4">
+                    <p class="mb-2">
+                        <strong>Netz Corretora de Seguros LTDA</strong> – CNPJ 61.734.108/0001-00
+                    </p>
+                    <p>
+                        Instituição financeira autorizada pelo Banco Central do Brasil
+                    </p>
+                </div>
+                <div class="text-center text-sm text-gray-500">
+                    <a href="privacidade.html" class="hover:text-white transition">Política de Privacidade</a>
+                    <span class="mx-2">|</span>
+                    <a href="termos.html" class="hover:text-white transition">Termos de Uso</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        document.getElementById('mobile-menu-btn').addEventListener('click', function () {
+            document.getElementById('mobile-menu').classList.toggle('hidden');
+        });
+    </script>
+</body>
+
+</html>
